@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Landing from '../components/Landing'
 
 const Home = () => {
   return (
-    <div>
-       Home 
-    </div>
+    <Fragment>
+       <Landing />
+    </Fragment>
   )
 }
 
