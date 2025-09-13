@@ -27,6 +27,9 @@ const Landing = () => {
           <a href="/" className="btn w-[280px] h-[60px] rounded-[30px] element-center text-white font-medium">Get Started</a>
         </div>
       </div>
+      <div className="w-full h-[200px]">
+        <img src="/src/assets/images/bg-curvy-desktop.svg" alt="img" className="w-full h-full"/>
+      </div>
     </section>
   );
 };
