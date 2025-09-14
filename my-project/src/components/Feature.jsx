@@ -25,7 +25,7 @@ const Feature = () => {
         },
     ])
   return (
-    <section>
+    <section className='pb-[150px]'>
       <dev className='container'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 w-[865px] mx-auto max-w-full'>
             {items.map((item)=>(
